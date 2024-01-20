@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <style> 
+      *{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position:absolute;
+    background-image: linear-gradient(#033747,#012733);
+}
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float:left;
+    color:white ;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav ul{
+    float:right;
+}
+nav  ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    font-size: 16px;
+    text-transform:uppercase;
+    padding: 1px 10px;
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: #ff8c69;
+    transition: all 0.4s ease 0s;
+}
+        h1{
+      font-weight:300;
+      font-style: oblique;
+      font-display:inherit ;
+      color:black ;
+      line-height:unset;
+      font-size: 50px;}
+      p{font-size: 20px;
+      font-style: initial;
+      
+      }
+      img{
+            width: 300px;
+            length:300px;
+        }
+    *{
+        margin: 0;
+        padding:0 ;
+        box-sizing: border-box;
+        font-family: 'poppins', sans-serif;
+      }
+      nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position:absolute;
+    background-image: linear-gradient(#033747,#012733);
+}
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float:left;
+    color:white ;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav ul{
+    float:right;
+}
+nav  ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    font-size: 16px;
+    text-transform:uppercase;
+    padding: 1px 10px;
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: #ff8c69;
+    transition: all 0.4s ease 0s;
+}
+    .contact{
+        position: relative;
+        min-height: 100vh;
+        padding: 90px 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .contact .content{
+        max-width: 800px;
+        text-align: center;
+    }
+    .contact .content h2{
+        font-size: 36px;
+        font-weight: 500;
+        color: #0a0303;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .container .contactinfo{
+        width: 50%;
+        display:flex;
+        flex-direction: column;
+    }
+    .container .contactinfo .box{
+        position: relative;
+        padding: 20px 0;
+        display: flex;
+    
+    }
+    .container .contactinfo .box .icon{
+        min-width:60px;
+        height: 60px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 22px;
+    }
+    .container .contactinfo .box .text{
+        display: flex;
+        margin-left: 20px;
+        font-size: 16px;
+        color: rgb(54, 1, 1);
+        flex-direction: column;
+        font-weight: 300;
+    }
+    .container .contactinfo .box .text h3{
+        font-weight: 500;
+        color: #510214;
+    }
+    .contactform{
+        width: 40%;
+        padding: 40px;
+        background:#fbfafa;
+    }
+    .contactform h2{
+        font-size: 30px;
+        color: #0e0b0b;
+        font-weight: 500;
+    }
+    .contactform .inputBox{
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .contactform .inputBox input
+    {
+        width: 100%;
+        padding: 5px 0;
+        font-size:16px;
+        margin: 10px 0;
+        border: none;
+        border-bottom: 3px solid #333;
+        outline: none;
+        resize: none ;
+    }
+    .contactform .inputBox textarea
+    {
+        width: 100%;
+        padding: 5px 0;
+        font-size:16px;
+        margin: 10px 0;
+        border: none;
+        border-bottom: 3px solid #050505;
+        outline: none;
+        resize: none ;
+    }
+    .contactform .inputBox span{
+        position: absolute;
+        left: 0;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        pointer-events: none;
+        transition: 0.5s;
+        color: #4a4a4a;
+
+    }
+    .contactform .inputBox input:foucus ~ span
+    {
+        color: #e91e63;
+        font-size: 12px;
+        transform: translateY(-20px);
+    }
+    .contactform .inputBox input:valid ~ span
+    {
+        color: #e91e63;
+        font-size: 12px;
+        transform: translateY(-20px);
+    }
+    .contactform .inputBox textarea:foucus ~ span
+    {
+        color: #e91e63;
+        font-size: 12px;
+        transform: translateY(-20px);
+    }
+    .contactform .inputBox textarea:valid ~ span
+    {
+        color: #e91e63;
+        font-size: 12px;
+        transform: translateY(-20px);
+    }
+    ..contactform .inputBox input[type="submit"]
+    {
+        width: 100px;
+        background: #00bcd4;
+        color: #fae8e8;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 18px;
+
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+           <div class="logo">
+             <p><abbr title="Wartime Asset Redistribution">WAR</abbr></p>
+        </div>
+<div class="topnav">
+        <ul>
+            <li><a href="palestine.html">"Home"</a></li>
+    <li><a href="about.html">"About Us" </a></li>
+    <li><a href="contact.html">"Contact Us" </a></li>
+    <li><a href="FAQs.html">"FAQs" </a></li>
+    
+</ul>
+</div>
+</nav>
+</div>
+    <section class="contact">
+        <div class="content ">
+            <h2>Contact Us</h2>
+           
+            </div>
+            <div class="container">
+                <div class="contactinfo">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <b><p>shadman town north nazimabad karachi</p></b>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>phone</h3>
+                            <b><p>0318-4264200</p></b>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <b><p>haniaadnan2020@gmail.com</p></b>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactform">
+                    <form>
+                        <h2>send message</h2>
+                        <div class="inputBox">
+                            <input type="text" name=""required="required">
+                            <span>Full Name</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" name=""required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputBox">
+                            <textarea required="required"></textarea>
+                            <span>Type Your Message</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" name="" value="send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </section>
+    
+</body>
+</html>

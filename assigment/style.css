@@ -1,0 +1,221 @@
+body {
+padding: 30px;}
+h1{
+   font-weight:500;
+   font-style: oblique;
+   font-display:inherit ;
+   color:black ;
+   line-height: normal;
+   font-size: 60px;
+    }
+li {
+display: inline;
+margin-right: 10px;
+font-size: 40px;
+color: blue;
+}
+p{font-size: 20px;
+   font-style: initial;
+}
+h4{
+   font-size: 20px;
+   font-display:inherit;
+   color:black;
+}
+h2{
+   font-size: 20px;
+}  
+ *{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(https://pix11.com/wp-content/uploads/sites/25/2023/10/AP23280581439909.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;  
+}
+.navbar{
+    width:1200px;
+    height: 75px;
+    margin: auto;
+ }
+ .icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+ }
+ .logo{
+    color:orange;
+    font-size: 35px;
+    font-family:Arial ;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position:absolute;
+    background-image: linear-gradient(#033747,#012733);
+}
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float:left;
+    color:white ;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav ul{
+    float:right;
+}
+nav  ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    font-size: 16px;
+    text-transform:uppercase;
+    padding: 1px 10px;
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: #ff8c69;
+    transition: all 0.4s ease 0s;
+}
+.content-items img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient( rgba(16, 30, 41, 0.5),rgba(15, 37, 64, 0.5));
+}
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgb(8, 46, 73);
+    font-size: 60px;
+    font-style:oblique;
+  }
+  .centered-right {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+   }
+  button {
+    background-color: #9db2fe; 
+    border-style: dashed;
+    color:rgb(1, 1, 5);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    border-color: rgb(1, 9, 75) ;
+    border: solid;
+    cursor:col-resize;
+    display: inline-block; 
+  }
+  img {
+    width: 500px;
+    length: 500px;
+    border-style:solid;
+    border-radius:5px;
+    border-color: black;
+    border-width: 5px;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  h1 a{
+    color: #012733;
+    font-style: italic;
+  }
+  
+  *body {
+    padding: 30px;}
+    h1{
+    font-weight:500;
+    font-style: oblique;
+    font-display:inherit ;
+    color:black ;
+    line-height: normal;
+    font-size: 60px;
+     }
+     h5{
+    font-size: 20px;
+    font-display:inherit;
+    color:black;
+}
+p{font-size: 20px;
+    font-style: initial;
+    }
+    img{width: 300px;
+    length: 300px;
+    }
+    #footer{
+        padding: 100px 0 20px;
+        background:grey;
+    }
+.footer-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+}
+.footer-left{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-botttom: 20px;
+}
+.footer-right{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-botttom: 20px;
+    text-align: right;
+}
+.footer-row h1{
+    margin: 10px 0;
+}
+.footer-row p{
+    line-height: 35px;
+}
